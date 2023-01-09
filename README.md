@@ -1,14 +1,19 @@
 
 ### Itinerario React online IT Academy
 
-#### Ejercicios Sprint 1 Maquetación I.
+#### Ejercicios (S1) Sprint 1 Maquetación I. 
+
+**Objetivos**
+Maquetación por cajas.
+Distribución por ejes Flex.
+Diferenciar entre contenedor e item.
+Ajustar maquetación a tamaño pantalla.
 
 ***
 
-#### Nivel 1
-#### Nivel 2
-#### Nivel 3
+1️⃣ **Nivel 1**
+
 
 ***
-##### Maria Del Carmen Martín
-##### repo:
+**Maria Del Carmen Martín**
+📓 **Github** [maricarmenmg/S1.reactonline ](https://github.com/maricarmenmg/S1.reactonline.git)
