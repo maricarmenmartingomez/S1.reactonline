@@ -10,13 +10,14 @@ body {
 }
 
 
-.container {
+#container {
   max-width: 1200px;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
+/* -- Header-- */
 .header {
   background-color: #181818;
   display: flex;
@@ -40,8 +41,8 @@ body {
   flex: 4;
 }
 
-
-.slider{
+/* -- Hero -- */
+.hero{
     background-color: #ffa500;
 }
 
@@ -49,13 +50,14 @@ body {
     background-color: #ffd000;
 }
 
+/* -- Content -- */
 
-.main {
+#main {
   background-color: #181818;
   display: flex;
 }
 
-.content{
+.main-content{
   background-color: #2d4159;
   flex: 2;
   display: flex;
@@ -67,30 +69,28 @@ body {
   flex: 1 1 40%;
 }
 
-.content-text{
+.main-content-footer{
   background-color: #3b90f8;
   flex: 1 1 100%;
 }
 
-.aside{
+.sidebar{
   background-color: #f73e51;
   flex: 1;
   display: flex;
   flex-flow: column nowrap;
 }
-.text-aside, 
-.text-aside2 {
+.sidebar-content {
   background-color: #feea84;
 }
 
-.footer{
+#footer{
   background-color: #181818;
 }
 
-.content-footer{
+.footer-content{
   background-color: #e2ba09;
 }
-
 
 
 /* small devices  */
@@ -105,7 +105,7 @@ body {
   .content-nav-03{
   background-color: #ea5556;
 }
-  .main{
+  #main{
     flex-direction: column;
   }
   .content{
@@ -115,15 +115,14 @@ body {
   .article{
     background-color:#61959c;
   }
-  .content-text{
+ #main-content-footer{
   background-color:#a3ddcb;
   flex: 1;
   }
-  .aside{
+  .sidebar{
     background-color: #fc7b54;
   }
-  .text-aside,
-  .text-aside2 {
+  .sidebar-content {
   background-color: #fdb36b;
   }
 
@@ -131,7 +130,7 @@ body {
 
 /* Landscape tablets, 768px and up) */
 @media screen and (max-width: 768px) {
-  .main{
+ #main{
     background: rgb(246, 255, 0);
     flex-direction: column;
   }
