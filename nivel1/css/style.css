@@ -92,6 +92,7 @@ body {
 }
 
 
+
 /* small devices  */
 @media screen and (max-width:480px) {
   
@@ -129,7 +130,7 @@ body {
 } 
 
 /* Landscape tablets, 768px and up) */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .main{
     background: rgb(246, 255, 0);
     flex-direction: column;
