@@ -1,3 +1,6 @@
+
+![alt logo](../logoITA.png)   
+
 ## Sprint 1 IT Academy | Maquetación I
 
 ### Nivel 1
