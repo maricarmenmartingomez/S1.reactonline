@@ -43,6 +43,7 @@ html{
 
 .logo img {
   width: 9.9rem;
+  animation: fadeIn 2s ease-in-out 0.5s both, moveUp 1s ease-in-out 0.5s both;
 }
 
 
@@ -54,6 +55,7 @@ html{
   flex: 3;
   display: flex;
   justify-content: space-between;
+  animation: fadeIn 2s ease-in-out 0.5s both, moveUp 1s ease-in-out 0.5s both;
 }
 
 .menu a {
@@ -85,6 +87,7 @@ html{
   justify-content: center;
   align-items: center;
   gap: 2.7rem;
+  animation: fadeIn 2s ease-in-out 0.5s both, moveUp 1s ease-in-out 0.5s both;
 }
 
 .facebook, .twitter{
@@ -120,6 +123,7 @@ html{
   font-weight: 400;
   font-size: 3rem;
   padding: 2rem;
+  animation: fadeIn 2s ease-in-out 0.5s both, moveUp 1s ease-in-out 0.5s both;
 }
 
 /* -- Content-- */
@@ -435,4 +439,27 @@ html{
     font-size: 1.6rem;
   }
 
+}
+
+
+/* --- Keyframes --- */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }

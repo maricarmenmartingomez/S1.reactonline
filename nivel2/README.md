@@ -7,7 +7,7 @@
 
 ![alt logo](images/japan2.png)   
 
-#####  Ejercicio 4
+##### Ejercicio 4
 En esta parte queremos que trabajes la cabecera y el grafismo. Tendrás que añadir iconos y logotipo, además de realizar una imagen de fondo. Sustituye a los cuadrantes respectivos para que la nueva cabecera tenga el aspecto de esta web de turismo en el japón:
 
 **Es importante que tengas en consideración lo siguiente:**
