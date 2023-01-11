@@ -16,5 +16,5 @@ En esta parte queremos que trabajes la cabecera y el grafismo. Tendrás que aña
 - Los media query creados en la actividad anterior, deben mantenerse.
 - El texto "Disfruta..." es semitransparente.
 - El logo y el fondo de la cabecera, los tienes adjuntados a la actividad. El resto de elementos gráficos los - tendrás que buscar y que sean lo más parecidos posibles.
-- Los iconos del menú puedes obtenerlos de **font-awesome**.
+- Los iconos del menú puedes obtenerlos de **font-awesome**
 
