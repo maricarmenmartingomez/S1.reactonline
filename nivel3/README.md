@@ -9,6 +9,6 @@
 
 
 #####  Ejercicio 6
-Para mejorar la experiencia de usuario, aplica sobre los elementos principales de la web, título y logo, una animación usando keyframes.
+Para mejorar la experiencia de usuario, aplica sobre los elementos principales de la web, título y logo, una animación usando **keyframes**.
 
 
