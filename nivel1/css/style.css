@@ -93,8 +93,22 @@ body {
 }
 
 
-/* small devices  */
-@media screen and (max-width:480px) {
+
+/* ---  Tablets Devices  --- */
+
+@media screen and (max-width: 768px) {
+
+  #main{
+     background: rgb(246, 255, 0);
+     flex-direction: column;
+   }
+
+ } 
+ 
+
+/* ---  Small Devices  --- */
+
+@media (max-width:480px) {
   
   .nav {
     background-color: #2d4159;
@@ -108,14 +122,14 @@ body {
   #main{
     flex-direction: column;
   }
-  .content{
+  .main-content{
     background-color: #0a506f;
     flex-direction: column;
   }
   .article{
     background-color:#61959c;
   }
- #main-content-footer{
+ .main-content-footer{
   background-color:#a3ddcb;
   flex: 1;
   }
@@ -128,10 +142,3 @@ body {
 
 } 
 
-/* Landscape tablets, 768px and up) */
-@media screen and (max-width: 768px) {
- #main{
-    background: rgb(246, 255, 0);
-    flex-direction: column;
-  }
-} 

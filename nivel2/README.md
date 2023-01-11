@@ -8,16 +8,13 @@
 ![alt logo](images/japan2.png)   
 
 #####  Ejercicio 4
-En aquesta part volem que treballis la capçalera i el grafisme. Hauràs d'afegir icones i logotip, a més de fer una imatge de fons. Substitueix els quadrants respectius perquè la nova capçalera tingui l'aspecte d'aquest web de turisme al japó:
+En esta parte queremos que trabajes la cabecera y el grafismo. Tendrás que añadir iconos y logotipo, además de realizar una imagen de fondo. Sustituye a los cuadrantes respectivos para que la nueva cabecera tenga el aspecto de esta web de turismo en el japón:
 
-**És important que tinguis en consideració el següent:**
+**Es importante que tengas en consideración lo siguiente:**
 
-- Les opcions clicables han de tenir efecte roll-over.
-- Els media query creats a l'activitat anterior, s'han de mantenir.
-- El text "Disfruta..." és semitransparent.
-- El logo i el fons de la capçalera, els tens adjuntats a l'activitat. La resta d'elements gràfics els - hauràs de cercar i que siguin tan semblants com sigui possible.
-- Les icones del menú pots obtenir-les de **font-awesome**.
-
-##### Ejercicio 5
-En aquest exercici hauràs d'afegir l'apartat dels articles seguint aquest grafisme:
+- Las opciones clicables deben tener efecto roll-over.
+- Los media query creados en la actividad anterior, deben mantenerse.
+- El texto "Disfruta..." es semitransparente.
+- El logo y el fondo de la cabecera, los tienes adjuntados a la actividad. El resto de elementos gráficos los - tendrás que buscar y que sean lo más parecidos posibles.
+- Los iconos del menú puedes obtenerlos de **font-awesome**.
 

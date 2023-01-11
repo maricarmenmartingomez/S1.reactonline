@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400,500,600&display=swap'); 
+
 * {
   margin: 0;
   padding: 0;
@@ -210,18 +211,20 @@ html{
   gap: .8rem;
 }
 
-.sidebar-title,
-.sidebar-text {
-  padding: 1rem;
-  font-size: 1.5rem;
+.sidebar-content  h4 {
+  font-size: 1.9rem;
+  font-weight: 600;
 }
 
-.sidebar-title {
-  font-size: 1.9rem;
+.sidebar-content p {
+  font-weight: 400;
+  padding: 1rem;
+  font-size: 1.4rem;
 }
 
 
 /* -- Footer -- */
+
 .footer {
   background-color: #46444433;
   font-size: 1.6rem;
@@ -238,10 +241,9 @@ html{
 
 
 
-/* -- Media Queries -- */
+/* --- Tablets Devices  --- */
 
-
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 
   .container{
     margin: 1rem 1rem;
@@ -260,13 +262,6 @@ html{
     width: 60px;
   }
 
-  .icon {
-    font-size: 1.1rem;
-  }
-
-  .icon2 {
-    font-size: 1.3rem;
-  }
 
   .menu{
     padding: 1.5rem 4rem 0 0;
@@ -274,22 +269,25 @@ html{
 
   .menu a {
     padding: .3rem .4rem;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     gap: .3rem;
   }
+
+  .icon-menu{
+    display: none;
+  }
+
 
   .social{
     padding-top: 1.5rem;
     gap: 1rem;
   }
 
-  .icon3 {
-    font-size: 1.1rem;
-  }
-
   .social a {
     padding: 0 .3rem 0 .3rem;
   }
+
+ 
 
   .hero {
     height: 10.5rem;
@@ -298,7 +296,6 @@ html{
   }
 
   .title h1 {
-    padding-top: .5rem;
     font-size: 2.5rem;
   }
 
@@ -308,35 +305,38 @@ html{
   }
 
   .article h3 {
-    margin-top: -1.8rem;
-    font-size: 1.5rem
+    margin-top: -3.2rem;
+    font-size: 1.6rem
   }
 
   .article .title{
-    height: 2.8rem;
-    font-size: 1.5rem;
+    height: 3.0rem;
+    font-size: 1.6rem;
+    padding: .7rem;
   }
 
   .article p {
     margin-top: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    padding: .2rem;
   }
 
   .sidebar{
-    padding: 1rem .5rem 0;
-    gap: .3rem;
+  padding: 2.9rem;
   }
 
-  .aside1,
-  .aside2 {
-    padding: .5rem;
+  .sidebar-content h4{
+    font-weight: 600;
   }
 
-  .aside1 {
-    font-size: 1.5rem;
+  .sidebar-content p{
+    font-size: 1.4rem;
   }
+
 }
 
+
+/* ---  Small Devices  --- */
 
 @media (max-width: 480px) {
 
@@ -345,50 +345,57 @@ html{
     background-position: center 40%;
   }
 
-  .nav {
+  nav{
     margin-top: 2rem;
     padding-top: 1rem;
-    flex-flow: column nowrap;
+    flex-direction: column;
   }
 
-  .navEsq {
+  .logo {
     padding: 0;
   }
 
-  .navEsq img {
-    width: 6rem;
+  .logo img {
+    width: 7rem;
   }
 
-  .navCentre {
-    padding: 1.2rem 0 0;
+  .menu {
+    padding: 1.5rem 0 0;
     gap: 2rem;
   }
 
-  .off {
+  .menu a {
+    padding: .6rem .6rem;
+    font-size: 1.5rem;
+    gap: .3rem;
+  }
+
+  .icon-menu{
     display: none;
   }
 
-  .navDreta {
-    padding-top: 1.6rem;
+  .social {
+    padding-top: 1.9rem;
     gap: .5rem;
   }
 
-  .slide {
-    height: 6.25rem;
-    margin: 4.5rem 3rem 0;
-    padding: 0;
+  .hero{
+    height: 10.5rem;
+    margin: 11.5rem 5rem 0;
+    padding: 2.5rem 0 0;
   }
 
-  .titol h1 {
-    padding-top: 1.8rem;
-    font-size: 1.75rem;
+  .title h1 {
+    font-size: 2.0rem;
+    margin: -0.8rem ;
+    
   }
 
   .main {
     font-size: 1.3rem;
   }
 
-  .seccio {
+  .main-content {
     flex-flow: column nowrap;
   }
 
@@ -397,8 +404,8 @@ html{
   }
 
   .article h3 {
-    margin-top: -1.5rem;
-    font-size: 1rem
+    margin-top: -2.9rem;
+    font-size: 1.9rem;
   }
 
   .article .titol {
@@ -413,11 +420,19 @@ html{
     font-size: 1.3rem;
   }
 
-  .seccioFooter {
+  .main-content-footer {
     flex: 1;
-  }
-
-  .peuPagina {
     font-size: 1.3rem;
   }
+
+
+  .sidebar{
+    padding: 1rem .5rem 0;
+    gap: .3rem;
+  }
+
+  .footer-content {
+    font-size: 1.6rem;
+  }
+
 }
